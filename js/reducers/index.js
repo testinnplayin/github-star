@@ -1,4 +1,5 @@
 import * as actions from '../actions/index';
+import store from './store';
 
 const initialRepositoryState = [];
 
@@ -26,3 +27,6 @@ export const repositoryReducer = (state=initialRepositoryState, action) => {
 	return state;
 };
 
+
+store.dispatch(actions.addRepository('joe'));
+console.log(store.getState());
