@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded', () =>
 	ReactDOM.render(
 		<Provider store={store}>
 			<RepositoryList />
-		</Provider>
-		, document.getElementById('app'));
+		</Provider>,
+		document.getElementById('app'))
 );

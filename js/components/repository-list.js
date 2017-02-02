@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import Repository from './repository';
 import * as actions from '../actions/index';
 
-expert default class RepositoryList extends React.Component {
+export class RepositoryList extends React.Component {
 	constructor(props) {
 		super(props);
 
